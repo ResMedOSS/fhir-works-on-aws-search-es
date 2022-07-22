@@ -21,7 +21,6 @@ describe('tokenQuery', () => {
                     "multi_match": Object {
                       "fields": Array [
                         "identifier.system.keyword",
-                        "identifier.coding.system.keyword",
                       ],
                       "lenient": true,
                       "query": "http://acme.org/patient",
@@ -30,11 +29,7 @@ describe('tokenQuery', () => {
                   Object {
                     "multi_match": Object {
                       "fields": Array [
-                        "identifier.code.keyword",
-                        "identifier.coding.code.keyword",
                         "identifier.value.keyword",
-                        "identifier.keyword",
-                        "identifier",
                       ],
                       "lenient": true,
                       "query": "2345",
@@ -51,11 +46,7 @@ describe('tokenQuery', () => {
             Object {
               "multi_match": Object {
                 "fields": Array [
-                  "identifier.code.keyword",
-                  "identifier.coding.code.keyword",
                   "identifier.value.keyword",
-                  "identifier.keyword",
-                  "identifier",
                 ],
                 "lenient": true,
                 "query": "http://acme.org/patient",
@@ -71,11 +62,7 @@ describe('tokenQuery', () => {
                   Object {
                     "multi_match": Object {
                       "fields": Array [
-                        "identifier.code.keyword",
-                        "identifier.coding.code.keyword",
                         "identifier.value.keyword",
-                        "identifier.keyword",
-                        "identifier",
                       ],
                       "lenient": true,
                       "query": "2345",
@@ -105,7 +92,6 @@ describe('tokenQuery', () => {
                     "multi_match": Object {
                       "fields": Array [
                         "identifier.system.keyword",
-                        "identifier.coding.system.keyword",
                       ],
                       "lenient": true,
                       "query": "http://acme.org/patient",
@@ -114,11 +100,7 @@ describe('tokenQuery', () => {
                   Object {
                     "multi_match": Object {
                       "fields": Array [
-                        "identifier.code.keyword",
-                        "identifier.coding.code.keyword",
                         "identifier.value.keyword",
-                        "identifier.keyword",
-                        "identifier",
                       ],
                       "lenient": true,
                       "query": "2345",
@@ -139,7 +121,6 @@ describe('tokenQuery', () => {
                     "multi_match": Object {
                       "fields": Array [
                         "identifier.system",
-                        "identifier.coding.system",
                       ],
                       "lenient": true,
                       "query": "http://acme.org/patient",
@@ -148,10 +129,7 @@ describe('tokenQuery', () => {
                   Object {
                     "multi_match": Object {
                       "fields": Array [
-                        "identifier.code",
-                        "identifier.coding.code",
                         "identifier.value",
-                        "identifier",
                       ],
                       "lenient": true,
                       "query": "2345",
@@ -167,11 +145,7 @@ describe('tokenQuery', () => {
             Object {
               "multi_match": Object {
                 "fields": Array [
-                  "identifier.code.keyword",
-                  "identifier.coding.code.keyword",
                   "identifier.value.keyword",
-                  "identifier.keyword",
-                  "identifier",
                 ],
                 "lenient": true,
                 "query": "true",

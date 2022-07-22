@@ -1640,11 +1640,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -2686,11 +2682,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -2887,11 +2879,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -2965,11 +2953,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -2982,7 +2966,6 @@ Array [
                       "multi_match": Object {
                         "fields": Array [
                           "identifier.system.keyword",
-                          "identifier.coding.system.keyword",
                         ],
                         "lenient": true,
                         "query": "http://acme.org/patient",
@@ -2991,11 +2974,7 @@ Array [
                     Object {
                       "multi_match": Object {
                         "fields": Array [
-                          "identifier.code.keyword",
-                          "identifier.coding.code.keyword",
                           "identifier.value.keyword",
-                          "identifier.keyword",
-                          "identifier",
                         ],
                         "lenient": true,
                         "query": "2345",
@@ -3036,11 +3015,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -3088,11 +3063,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -3156,11 +3127,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -3208,11 +3175,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -3273,11 +3236,7 @@ Array [
                     Object {
                       "multi_match": Object {
                         "fields": Array [
-                          "gender.code.keyword",
-                          "gender.coding.code.keyword",
-                          "gender.value.keyword",
                           "gender.keyword",
-                          "gender",
                         ],
                         "lenient": true,
                         "query": "female",
@@ -3286,11 +3245,7 @@ Array [
                     Object {
                       "multi_match": Object {
                         "fields": Array [
-                          "gender.code.keyword",
-                          "gender.coding.code.keyword",
-                          "gender.value.keyword",
                           "gender.keyword",
-                          "gender",
                         ],
                         "lenient": true,
                         "query": "male",
@@ -3490,11 +3445,7 @@ Array [
               Object {
                 "multi_match": Object {
                   "fields": Array [
-                    "gender.code.keyword",
-                    "gender.coding.code.keyword",
-                    "gender.value.keyword",
                     "gender.keyword",
-                    "gender",
                   ],
                   "lenient": true,
                   "query": "female",
@@ -3617,11 +3568,7 @@ Array [
                     Object {
                       "multi_match": Object {
                         "fields": Array [
-                          "telecom.code.keyword",
-                          "telecom.coding.code.keyword",
                           "telecom.value.keyword",
-                          "telecom.keyword",
-                          "telecom",
                         ],
                         "lenient": true,
                         "query": "1234567",
